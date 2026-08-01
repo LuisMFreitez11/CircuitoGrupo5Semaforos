@@ -20,3 +20,17 @@ int Semaforo_Verde_2 = 5;    //Asignacion del puerto digital 5 para luz verde se
 
 int Peatonal_Rojo_2 = 4;     //Asignacion del puerto digital 4 para luz roja peatonal 2
 int Peatonal_Verde_2 = 3;    //Asignacion del puerto digital 3 para luz verde peatonal 2
+
+void setup() {
+  //Configuracion de los puertos digitales como salida
+  pinMode(Semaforo_Rojo_1,      OUTPUT);
+  pinMode(Semaforo_Amarillo_1,  OUTPUT);
+  pinMode(Semaforo_Verde_1,     OUTPUT);
+  pinMode(Peatonal_Rojo_1,      OUTPUT);
+  pinMode(Peatonal_Verde_1,     OUTPUT);
+  pinMode(Semaforo_Rojo_2,      OUTPUT);
+  pinMode(Semaforo_Amarillo_2,  OUTPUT);
+  pinMode(Semaforo_Verde_2,     OUTPUT);
+  pinMode(Peatonal_Rojo_2,      OUTPUT);
+  pinMode(Peatonal_Verde_2,     OUTPUT);
+}
