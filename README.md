@@ -1,4 +1,5 @@
 # Semáforos Sincronizados con Arduino
+<img src="https://imgs.search.brave.com/zqd5jl5SscdhB7DDnYMuB9YpXMrt0I5bJUXfqGr1Ff0/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/dmVjdG9ybG9nby56/b25lL2xvZ29zL2Fy/ZHVpbm8vYXJkdWlu/by1vZmZpY2lhbC5z/dmc" alt="thinkercad">
 
 Proyecto de la Electiva ELT-622 (Robótica) - IUJO - 6to Semestre.
 
