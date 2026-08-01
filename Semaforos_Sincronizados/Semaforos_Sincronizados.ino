@@ -34,3 +34,12 @@ void setup() {
   pinMode(Peatonal_Rojo_2,      OUTPUT);
   pinMode(Peatonal_Verde_2,     OUTPUT);
 }
+
+void loop() {
+  //Fase 1: semaforo 1 en verde, semaforo 2 en rojo
+  digitalWrite(Semaforo_Verde_1,     HIGH);
+  digitalWrite(Peatonal_Rojo_1,      HIGH);
+  digitalWrite(Semaforo_Rojo_2,      HIGH);
+  digitalWrite(Peatonal_Verde_2,     HIGH);
+  delay(3000);                             //Espera de 3 segundos
+}
