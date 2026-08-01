@@ -6,3 +6,17 @@ Anthony Alfonso Bilbao Terán C.I 30.227.249
 Carlos Torrealba C.I 30.553.969
 6to B INFORMATICA
 */
+
+int Semaforo_Rojo_1 = 12;    //Asignacion del puerto digital 12 para luz roja semaforo 1
+int Semaforo_Amarillo_1 = 11; //Asignacion del puerto digital 11 para luz amarilla semaforo 1
+int Semaforo_Verde_1 = 10;    //Asignacion del puerto digital 10 para luz verde semaforo 1
+
+int Peatonal_Rojo_1 = 9;     //Asignacion del puerto digital 9 para luz roja peatonal 1
+int Peatonal_Verde_1 = 8;    //Asignacion del puerto digital 8 para luz verde peatonal 1
+
+int Semaforo_Rojo_2 = 7;     //Asignacion del puerto digital 7 para luz roja semaforo 2
+int Semaforo_Amarillo_2 = 6; //Asignacion del puerto digital 6 para luz amarilla semaforo 2
+int Semaforo_Verde_2 = 5;    //Asignacion del puerto digital 5 para luz verde semaforo 2
+
+int Peatonal_Rojo_2 = 4;     //Asignacion del puerto digital 4 para luz roja peatonal 2
+int Peatonal_Verde_2 = 3;    //Asignacion del puerto digital 3 para luz verde peatonal 2
