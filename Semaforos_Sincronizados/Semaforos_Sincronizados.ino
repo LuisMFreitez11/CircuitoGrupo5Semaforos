@@ -42,4 +42,35 @@ void loop() {
   digitalWrite(Semaforo_Rojo_2,      HIGH);
   digitalWrite(Peatonal_Verde_2,     HIGH);
   delay(3000);                             //Espera de 3 segundos
+
+  //Transicion: amarillo semaforo 1
+  digitalWrite(Semaforo_Verde_1,      LOW);//Led semaforo verde 1 apagado.
+  digitalWrite(Semaforo_Amarillo_1,  HIGH);//Led semaforo amarillo 1 encendido.
+  delay(1000);                              //Espera de 1 segundo
+
+  //Fase 2: semaforo 2 en verde, semaforo 1 en rojo
+  digitalWrite(Semaforo_Amarillo_1,   LOW);//Led semaforo amarillo 1 apagado.
+  digitalWrite(Semaforo_Rojo_1,      HIGH);//Led semaforo rojo 1 encendido.
+  digitalWrite(Peatonal_Rojo_1,       LOW);//Led peatonal rojo 1 apagado.
+  digitalWrite(Peatonal_Verde_1,     HIGH);//Led peatonal verde 1 encendido.
+  digitalWrite(Semaforo_Rojo_2,       LOW);//Led semaforo rojo 2 apagado.
+  digitalWrite(Semaforo_Verde_2,     HIGH);//Led semaforo verde 2 encendido.
+  digitalWrite(Peatonal_Verde_2,      LOW);//Led peatonal verde 2 apagado.
+  digitalWrite(Peatonal_Rojo_2,      HIGH);//Led peatonal rojo 2 encendido.
+  delay(3000);                             //Espera de 3 segundos
+
+  //Transicion: amarillo semaforo 2
+  digitalWrite(Semaforo_Verde_2,      LOW);//Led semaforo verde 2 apagado.
+  digitalWrite(Semaforo_Amarillo_2,  HIGH);//Led semaforo amarillo 2 encendido.
+  delay(1000);                             //Espera de 1 segundo
+
+  //Fin del ciclo: semaforo 1 vuelve a verde
+  digitalWrite(Semaforo_Rojo_1,       LOW);
+  digitalWrite(Semaforo_Verde_1,     HIGH);
+  digitalWrite(Peatonal_Verde_1,      LOW);
+  digitalWrite(Peatonal_Rojo_1,      HIGH);
+  digitalWrite(Semaforo_Amarillo_2,   LOW);
+  digitalWrite(Semaforo_Rojo_2,      HIGH);
+  digitalWrite(Peatonal_Rojo_2,       LOW);
+  digitalWrite(Peatonal_Verde_2,     HIGH);
 }
